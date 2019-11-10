@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+  
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <!-- BOOTSTRAP THEME -->
+    <link rel="stylesheet" href="https://bootswatch.com/4/slate/bootstrap.min.css">
+  
+    <!-- CUSTOM STYLES -->
+    <link rel="stylesheet" href="hunt1.css">
+  
+    <!--Navbar-->
+  </head>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <a class="navbar-brand" href="#">Code Hunt</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarColor01">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Puzzles <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">?????</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Blog</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="text" placeholder="Search">
+        <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+  <h2>Instructions</h2>
+  <p>1.) In order to solve this code hunt puzzle you will have to follow the instructions inside of the "instructions card" below.
+      <br>2.) The only hint that you will be given is inside of the "Hint card below, everything else must be solved using the instructions.
+      <br>3.) When you feel like you have the correct answer, insert it inside of the "Answer Card" below to check and see if you are correct. 
+      <br>4.) Enjoy!<br></p>
+
+             <!--Instructions Card-->
+    <div class="card-deck">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Instructions</h5>
+                <p class="card-text">
+                    Riddle:<br> Why is !False funny?<br><br>
+                    1.) Find, open, and read the "message from me". <br><br>
+                    2.) Find the invisible word on the webpage.<br><br>
+                    3.) Click the "up", "down", "left", "right". This word is in between.<br><br>
+                    4.) The first letter of the colors on points (2,3) and  (0,4) on the color graph. ( The box with a red line through it is point (0,0)).<br><br>
+                    5.) The second letter of the first progress bars percentage concatenated with the first letter of the second progress bars percentage.<br><br>
+                    6.) inspect elements and find the hidden word!
+                    7.) When you have all 6 words enter them in on the answer card and check to see if you're correct.
+              </p> 
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Last updated 2 days ago</small>
+              </div>
+            </div>
+            <!--Hint Card-->
+            <div class="card">
+              <img src="book.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Hint Card</h5>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Last updated 2 days ago</small>
+              </div>
+            </div>
+            <!--Answer Card-->
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Answer</h5>
+                <p class="card-text">Enter answer below.</p>
+                <div class="form-group">
+                        <label class="col-form-label col-form-label-lg" for="inputLarge"></label>
+                        <input class="form-control form-control-lg" type="text" placeholder="No pressure" id="inputLarge">
+                        <button type="button" class="btn btn-primary btn-lg btn-block"><a href="congrats.html">Check</a></button>
+                      </div>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Last updated 2 days ago</small>
+              </div>
+            </div>
+          </div>
+          <br><br><br><br><br>
+
+
+<!--Popover Bar-->
+<button type="button" class="btn btn-secondary" title="" data-container="body" data-toggle="popover" data-placement="left" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus." data-original-title="Popover Title">Left</button>
+
+<button type="button" class="btn btn-secondary" title="" data-container="body" data-toggle="popover" data-placement="top" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus." data-original-title="Popover Title">Top</button>
+
+<button type="button" class="btn btn-secondary" title="" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Vivamus
+sagittis lacus vel augue laoreet rutrum faucibus." data-original-title="Popover Title">Bottom</button>
+
+<button type="button" class="btn btn-secondary" title="" data-container="body" data-toggle="popover" data-placement="right" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus." data-original-title="Popover Title">Right</button>
+<br><br><br><br><br>
+
+
+<!--Progress Bar-->
+<div class="progress">
+  <div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+<div class="progress">
+  <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+<br><br><br><br><br>
+
+
+<!--Email Message-->
+<a href="mailto:someone@example.com?cc=someoneelse@example.com&bcc=andsomeoneelse@example.com
+&subject=Summer%20Party&body=The%20infamous%20clown%20that%20hides%20in%20sewers...%20if%20he%20was%20plural.">Message From Me</a>
+<br><br>
+
+
+<!--Invisible word-->
+<h6>funny</h6>
+<br><br>
+
+
+<!--Color graph-->
+<form action="/action_page.php">
+  Select your favorite color: <input type="color" name="favcolor" value="#ff0000">
+
+<br><br><br><br><br>
+<!--Hidden Word-->
+<H4>True</H4>
+
+</html>
